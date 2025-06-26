@@ -1,7 +1,7 @@
 # Data Repository of r<sup>2</sup>SCAN@Hartree Fock paper respository 
 
 
-This repository contains the data for the manuscript entitled **"Reducing Self-Interaction Error in Transition-Metal Oxides with Different Exact-Exchange Fractions for Energy and Density."**
+This repository contains the data set for the manuscript entitled **"Reducing Self-Interaction Error in Transition-Metal Oxides with Different Exact-Exchange Fractions for Energy and Density."**, Harshan Reddy Gopidi, Ruiqi Zhang, Yanyong Wang, Abhirup Patra, Jianwei Sun, Adrienn Ruzsinszky, John P. Perdew, and Pieremanuele Canepa, [https://arxiv.org/abs/2506.20635](arXiv:2506.20635) (2025)
 
 This work is coauthored by Harshan Reddy Gopidi (University of Houston), Ruiqi Zhang  (Tulane University), Yanyong Wang (Tulane University), Abhirup Patra (Shell Inc.), Jianwei Sun (Tulane University), Adrienn Ruzsinszky (Tulane University), John P. Perdew (Tulane University), and Pieremanuele Canepa (University of Houston). 
 
