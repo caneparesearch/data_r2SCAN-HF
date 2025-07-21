@@ -9,4 +9,4 @@ This repository has been deposited on Zenodo at [https://doi.org/10.5281/zenodo.
 
 The repository is organized as such: 
 * Input and output files generated during the simulations are contained in folder: **[computed data](./computed_data)**.
-* A completed demo of r<sup>2</sup>SCAN@Hartree Fock-type calculations is contained in folder **[demo](./demo)**.
+* A completed demo of TiO<sub>2</sub> computed with r<sup>2</sup>SCAN@Hartree Fock-type calculations is in folder **[demo](./demo)**.
