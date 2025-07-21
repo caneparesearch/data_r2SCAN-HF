@@ -8,3 +8,4 @@ This work is coauthored by Harshan Reddy Gopidi (University of Houston), Ruiqi Z
 This repository has been deposited on Zenodo at [https://doi.org/10.5281/zenodo.15741824](https://doi.org/10.5281/zenodo.15741824).
 
 The repository is organized as such: 
+* Input and output files generated during the simulations are contained in folder: **[computed data](./computed_data)**
