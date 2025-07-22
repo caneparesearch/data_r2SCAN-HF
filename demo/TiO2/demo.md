@@ -17,7 +17,7 @@ Each stage is automated via a dedicated Python script that generates consistent 
   - Python 3.8+ with:
     - `pymatgen` (≥ 2024.1)
     - `numpy`
-  - VASP 6.4.2 or later, compiled with **r²SCAN** and hybrid-functional support
+  - VASP 6.4.2 or later, compiled with **r<sub>2</sub>SCAN** and hybrid-functional support
 - **Data**
   - CIF file of a TiO<sub>2</sub> (e.g. `TiO2.cif`)
   - Magnetic ordering details (if applicable) for `MAGMOM` in `prepare_r2scan_relax.py`
@@ -42,7 +42,7 @@ Each stage is automated via a dedicated Python script that generates consistent 
 - Generated inputs in `r2SCAN_relax/`:
   - `POSCAR` (from primitive/supercell)
   - `POTCAR` (TM potentials with `_sv` suffix)
-  - Gamma-centered `KPOINTS` (length density = 48 $\AA^{-1}$, high density)
+  - Gamma-centered `KPOINTS` (length density = 48 Å<sup>-1</sup>, high density)
   - `INCAR` with:
     - `METAGGA = R2SCAN`
     - `ENCUT = 700 eV`, `EDIFF = 1e-6`, `EDIFFG = -0.01` (tight convergence)
@@ -61,7 +61,7 @@ python prepare_r2scan_relax.py
 - Retrieves final `CONTCAR` from `r2SCAN_relax/restart*/`
 - Generated input in `r2SCAN/`:
   - `POSCAR` (from `CONTCAR`)
-  - Gamma-centered `KPOINTS` (uniform density of 700 $\AA^{-3}$, low density)
+  - Gamma-centered `KPOINTS` (uniform density of 700 Å<sup>-3</sup>, low density)
   - `INCAR` with:
     - `ALGO = Normal`, `IBRION = -1`, `ISIF = 0`, `NSW = 0`
     - `LWAVE = .TRUE.` to generate `WAVECAR`

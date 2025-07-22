@@ -24,7 +24,7 @@ from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 # --------------------------
 MAGMOM_STR = "6*0.6"                   # Magnetic moments string for INCAR, set it here or set it in the generated incar
 OUT_DIR = "r2SCAN_relax"               # Output directory for VASP inputs
-CIF_PATH = "./EntryWithCollCode33837.cif"  # Input structure
+CIF_PATH = "./TiO2.cif"                # Input structure
 FUNC = "PBE_54"                        # POTCAR functional
 ISPIN = 1                              # Set to 1 is spin unpolarized, 2 if spin polarized
 
