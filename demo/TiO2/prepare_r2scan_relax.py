@@ -144,6 +144,7 @@ incar_settings = {
     "LELF": False,
     "LVTOT": False,
     "LAECHG": False,
+    "LORBIT": 11,
 
     # Misc
 }
